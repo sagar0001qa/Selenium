@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Surefire suite" duration-ms="11016" started-at="2017-07-21T09:40:47Z" finished-at="2017-07-21T09:40:58Z">
+    <groups>
+    </groups>
+    <test name="Surefire test" duration-ms="11016" started-at="2017-07-21T09:40:47Z" finished-at="2017-07-21T09:40:58Z">
+      <class name="tests.loginTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:tests.loginTest@17550481]" name="login" duration-ms="8526" started-at="2017-07-21T15:10:47Z" finished-at="2017-07-21T15:10:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- tests.loginTest -->
+      <class name="tests.registerTest">
+        <test-method status="PASS" signature="register()[pri:0, instance:tests.registerTest@668bc3d5]" name="register" duration-ms="2475" started-at="2017-07-21T15:10:56Z" finished-at="2017-07-21T15:10:58Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- tests.registerTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
