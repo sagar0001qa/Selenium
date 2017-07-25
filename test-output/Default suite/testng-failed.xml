@@ -3,6 +3,16 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
+      <class name="tests.registerTest">
+        <methods>
+          <include name="register"/>
+        </methods>
+      </class> <!-- tests.registerTest -->
+      <class name="tests.loginTest">
+        <methods>
+          <include name="login"/>
+        </methods>
+      </class> <!-- tests.loginTest -->
       <class name="guru_tests.VerifyProductCost">
         <methods>
           <include name="login"/>

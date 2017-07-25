@@ -31,17 +31,71 @@ div.shootout {padding:2em;border:3px #4854A8 solid}
 <body>
 <table cellspacing="0" cellpadding="0" class="result">
 <tr><th>Test</th><th class="numi">Methods<br/>Passed</th><th class="numi">Scenarios<br/>Passed</th><th class="numi"># skipped</th><th class="numi"># failed</th><th class="numi">Total<br/>Time</th><th class="numi">Included<br/>Groups</th><th class="numi">Excluded<br/>Groups</th></tr>
-<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">2</td><td class="numi">2</td><td class="numi">0</td><td class="numi">0</td><td class="numi">11.0 seconds</td><td class="numi"></td><td class="numi"></td></tr>
+<tr><td style="text-align:left;padding-right:2em">Surefire test</td><td class="numi">0</td><td class="numi">0</td><td class="numi">0</td><td class="numi_attn">2</td><td class="numi">33.3 seconds</td><td class="numi"></td><td class="numi"></td></tr>
 </table>
 <table cellspacing="0" cellpadding="0" class="passed" id="summary">
 <tr><th>Class</th><th>Method</th><th># of<br/>Scenarios</th><th>Start</th><th>Time<br/>(ms)</th></tr>
-<tr><th colspan="4">Surefire test &#8212; passed</th></tr>
-<tr class="passedodd"><td rowspan="1">tests.loginTest</td><td><a href="#m1"><b>login</b>  </a></td><td class="numi">1</td><td>1500630047526</td><td class="numi">8526</td></tr>
-<tr class="passedeven"><td rowspan="1">tests.registerTest</td><td><a href="#m2"><b>register</b>  </a></td><td class="numi">1</td><td>1500630056054</td><td class="numi">2475</td></tr>
+<tr><th colspan="4">Surefire test &#8212; failed</th></tr>
+<tr class="failedodd"><td rowspan="1">tests.loginTest</td><td><a href="#m1"><b>login</b>  </a></td><td class="numi">1</td><td>1500974229659</td><td class="numi">23251</td></tr>
+<tr class="failedeven"><td rowspan="1">tests.registerTest</td><td><a href="#m2"><b>register</b>  </a></td><td class="numi">1</td><td>1500974252937</td><td class="numi">10013</td></tr>
 </table>
 <h1>Surefire test</h1>
 <h2 id="m1">tests.registerTest:register</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //a[.=&apos;REGISTER&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAGARR-PC&apos;, ip: &apos;192.168.1.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAGAR~1.RAN\AppData\Local\Temp\rust_mozprofile.cgBtpNVlYSQK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15652.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ebdcb3df-0097-43e0-8269-0a13216d546e
+*** Element info: {Using=xpath, value=//a[.=&apos;REGISTER&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at pageobjects.registerPage.regLink(registerPage.java:29)
+<br/>at tests.registerTest.register(registerTest.java:19)
+<br/>29 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 <h2 id="m2">tests.loginTest:login</h2>
+<div style="padding-left:3em">
+<p>Unable to locate element: //input[@name=&apos;userName&apos;]
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.4.0&apos;, revision: &apos;unknown&apos;, time: &apos;unknown&apos;
+System info: host: &apos;SAGARR-PC&apos;, ip: &apos;192.168.1.107&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_91&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAGAR~1.RAN\AppData\Local\Temp\rust_mozprofile.cgBtpNVlYSQK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15652.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ebdcb3df-0097-43e0-8269-0a13216d546e
+*** Element info: {Using=xpath, value=//input[@name=&apos;userName&apos;]}</p>
+sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+<br/>at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+<br/>at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+<br/>at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:150)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:115)
+<br/>at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:45)
+<br/>at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
+<br/>at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:637)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:410)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:509)
+<br/>at org.openqa.selenium.By$ByXPath.findElement(By.java:361)
+<br/>at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:402)
+<br/>at pageobjects.loginPage.setUsername(loginPage.java:27)
+<br/>at tests.loginTest.login(loginTest.java:20)
+<br/>29 lines not shown
+</div>
 <p class="totop"><a href="#summary">back to summary</a></p>
 </body></html>

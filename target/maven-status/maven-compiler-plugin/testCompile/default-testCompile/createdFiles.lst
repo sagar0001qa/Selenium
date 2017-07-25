@@ -1,5 +1,5 @@
-tests\loginTest.class
-base\testBase.class
 pageobjects\loginPage.class
 pageobjects\registerPage.class
+tests\loginTest.class
+base\testBase.class
 tests\registerTest.class

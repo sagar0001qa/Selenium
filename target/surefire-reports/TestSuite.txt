@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 11.437 sec - in TestSuite
+Tests run: 2, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 34.156 sec <<< FAILURE! - in TestSuite
+login(tests.loginTest)  Time elapsed: 23.277 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //input[@name='userName']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAGARR-PC', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAGAR~1.RAN\AppData\Local\Temp\rust_mozprofile.cgBtpNVlYSQK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15652.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ebdcb3df-0097-43e0-8269-0a13216d546e
+*** Element info: {Using=xpath, value=//input[@name='userName']}
+	at tests.loginTest.login(loginTest.java:20)
+
+register(tests.registerTest)  Time elapsed: 10.011 sec  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[.='REGISTER']
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.4.0', revision: 'unknown', time: 'unknown'
+System info: host: 'SAGARR-PC', ip: '192.168.1.107', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_91'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{moz:profile=C:\Users\SAGAR~1.RAN\AppData\Local\Temp\rust_mozprofile.cgBtpNVlYSQK, rotatable=false, timeouts={implicit=0.0, pageLoad=300000.0, script=30000.0}, pageLoadStrategy=normal, platform=ANY, specificationLevel=0.0, moz:accessibilityChecks=false, acceptInsecureCerts=false, browserVersion=54.0.1, platformVersion=10.0, moz:processID=15652.0, browserName=firefox, javascriptEnabled=true, platformName=windows_nt}]
+Session ID: ebdcb3df-0097-43e0-8269-0a13216d546e
+*** Element info: {Using=xpath, value=//a[.='REGISTER']}
+	at tests.registerTest.register(registerTest.java:19)
+

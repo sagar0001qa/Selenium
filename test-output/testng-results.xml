@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite1" duration-ms="14949" started-at="2017-07-21T12:59:16Z" finished-at="2017-07-21T12:59:31Z">
+  <suite name="Suite1" duration-ms="20609" started-at="2017-07-25T09:21:33Z" finished-at="2017-07-25T09:21:54Z">
     <groups>
     </groups>
-    <test name="Verify Mobile sorting" duration-ms="10877" started-at="2017-07-21T12:59:16Z" finished-at="2017-07-21T12:59:27Z">
+    <test name="Verify Mobile sorting" duration-ms="16243" started-at="2017-07-25T09:21:33Z" finished-at="2017-07-25T09:21:50Z">
       <class name="guru_tests.SortMobile">
-        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.SortMobile@27efef64]" name="login" duration-ms="10844" started-at="2017-07-21T18:29:16Z" finished-at="2017-07-21T18:29:27Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.SortMobile@27efef64]" name="login" duration-ms="16225" started-at="2017-07-25T14:51:33Z" finished-at="2017-07-25T14:51:50Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
       </class> <!-- guru_tests.SortMobile -->
     </test> <!-- Verify Mobile sorting -->
-    <test name="Verify Product Cost" duration-ms="4041" started-at="2017-07-21T12:59:27Z" finished-at="2017-07-21T12:59:31Z">
+    <test name="Verify Product Cost" duration-ms="4264" started-at="2017-07-25T09:21:50Z" finished-at="2017-07-25T09:21:54Z">
       <class name="guru_tests.VerifyProductCost">
-        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.VerifyProductCost@146ba0ac]" name="login" duration-ms="4038" started-at="2017-07-21T18:29:27Z" finished-at="2017-07-21T18:29:31Z">
+        <test-method status="PASS" signature="login()[pri:0, instance:guru_tests.VerifyProductCost@146ba0ac]" name="login" duration-ms="4261" started-at="2017-07-25T14:51:50Z" finished-at="2017-07-25T14:51:54Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
